@@ -1,0 +1,43 @@
+html{
+	background-color: #e3e7ea;
+}
+div .singleTab{
+	display: inline-block;
+}
+.main{
+/*background-color: #e3e7ea;*/
+}
+
+.button_show{
+	background-color: #3d77ea;
+}
+
+.button_hover{
+	background-color: #b5cfe7;
+}
+
+.important{
+	color:#5cd2bc;
+	/*background-color: #e3e7ea;*/
+}
+
+.level_first{
+	color:#2d3636;
+	/*background-color: #e3e7ea;*/
+}
+.level_second{
+	color:#57616b;
+	/*background-color: #e3e7ea;*/
+}
+.level_third{
+	color:#98a19f;
+	/*background-color: #e3e7ea;*/
+}
+.reversed{
+	color:#ffffff;
+	/*background-color: #e3e7ea;*/
+}
+a.link_text{
+	color:#3d77ea;
+	/*background-color: #e3e7ea;*/
+}

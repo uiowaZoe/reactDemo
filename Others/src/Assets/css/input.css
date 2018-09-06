@@ -1,0 +1,112 @@
+input{
+	border: none;
+	font-family: 'Regular MrEaves';
+	-ms-transform: scaleX(1.2);/*IE9*/
+    -moz-transform: scaleX(1.2);/*Firefox*/
+    -webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/
+    padding-left:3px;
+    outline-width: 0px;
+    background-color: transparent;
+    display: inline-block;
+ 
+}
+
+label{
+  -ms-transform: scaleX(1.2);/*IE9*/
+  -moz-transform: scaleX(1.2);/*Firefox*/
+  -webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/
+}
+
+
+
+.no-tip{
+  display: none;
+}
+.show-tip{
+  display: inline-block;
+  color: #e83f54;
+  font-family: 'Regular MrEaves';
+  font-size: 14px;
+  padding-left: 15px;
+}
+.clearButton{
+  border: none;
+  position: absolute;
+   outline-width: 0px;
+   background-color: transparent;
+     background-size: 90%;
+    background-image: url('../../image/smallclose.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.inputElement{
+
+  position: relative;
+  width: 110px;
+  height: 30px;
+  /*padding-left: 40px;*/
+  display: inline-block;
+}
+.inputComponent{
+  width: 300px;
+  display: inline-block;
+}
+.inputBox:hover:not(:focus) {
+  border: none;
+  border-bottom: 0.5px solid #57616b; 
+  opacity: 0.7;  
+
+}
+.invalid-label{
+  color: #57616b;
+  font-size: 14px;
+  font-family: 'Regular MrEaves';
+  bottom: 100%;
+  line-height: 1;
+  opacity: 1;
+  left:-3px;
+  position: absolute;
+}
+
+.label-origin{
+  font-family: 'Regular MrEaves';
+  color: #5cd2bc;
+  position: absolute;
+  opacity: 0;
+  transition: .2s bottom, .2s opacity;
+  bottom: 0;
+  left:-3px;
+  z-index: 1; 
+}
+input:focus{  
+  border-bottom: 0.5px solid #5cd2bc;
+  opacity: 1 !important;
+} 
+
+input:focus +  br + .label-origin{
+  font-family: 'Regular MrEaves';
+  color: #5cd2bc;
+  bottom: 100%;
+  font-size: 14px;
+  line-height: 1;
+  opacity: 1;
+   
+}
+ 
+.inputBox{
+	border: none;
+	border-bottom: 0.5px solid #97a09e;
+	color:#97a09e;
+	opacity: 0.5;	 
+}
+
+.invalidInput{
+  border:none;
+  border-bottom: 0.5px solid #e83f54 !important;
+  color: #e83f54;
+  /*background-image: url('../../image/smallclose.jpg');*/
+
+}

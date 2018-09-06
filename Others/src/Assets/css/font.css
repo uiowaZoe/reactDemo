@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Light MrEaves';
+  font-style: normal;
+
+  src: url('../fonts/MrEavesXLModOT-Light.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Heavy MrEaves';
+  font-style: normal;
+  src: url('../fonts/MrEavesXLModNarOT-Heavy.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Bold MrEaves';
+  font-style: normal;
+  src: url('../fonts/MrEavesXLModNarOT-Bold.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Regular MrEaves';
+  font-style: normal;
+ 
+  src: url('../fonts/MrEavesXLModNarOT-Reg.ttf'); /* IE9 Compat Modes */
+}
+
+
+.headline{
+font-size:60px;
+font-family: 'Light MrEaves';
+font-style: normal;
+color:#2d3636;
+
+-ms-transform: scaleX(1.2);/*IE9*/
+-moz-transform: scaleX(1.2);/*Firefox*/
+-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+
+}
+
+.title{
+font-size:24px;
+font-family: 'Heavy MrEaves';
+font-style: normal;
+color:#2d3636;
+-ms-transform: scaleX(1.2);/*IE9*/
+-moz-transform: scaleX(1.2);/*Firefox*/
+-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+}
+
+.body2{
+font-size:18px;
+font-family: 'Bold MrEaves';
+font-style: normal;
+color:#2d3636;
+-ms-transform: scaleX(1.2);/*IE9*/
+-moz-transform: scaleX(1.2);/*Firefox*/
+-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+}
+
+.body1{
+font-size:16px;
+font-family: 'Regular MrEaves';
+font-style: normal;
+color:#2d3636;
+-ms-transform: scaleX(1.2);/*IE9*/
+-moz-transform: scaleX(1.2);/*Firefox*/
+-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+}
+
+.caption{
+font-size:12px;
+font-family: 'Regular MrEaves';
+color:#2d3636;
+-ms-transform: scaleX(1.2);/*IE9*/
+-moz-transform: scaleX(1.2);/*Firefox*/
+-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+}
+
+.buttonText{
+  font-family: 'Bold MrEaves';
+  font-size: 16px;
+  -ms-transform: scaleX(1.2);/*IE9*/
+-moz-transform: scaleX(1.2);/*Firefox*/
+-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+}

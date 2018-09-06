@@ -1,0 +1,52 @@
+.pagination> li > a, 
+.pagination > li > span {
+    background: none;
+    border: none;
+    color: #57616b;
+    line-height:1 !important;
+    font-family: 'Bold MrEaves';
+    font-size:16px;
+}
+
+.pagination> li > a[aria-label=Next] {
+    background: none;
+    border: none;
+    color: #5cd2bc;
+}
+
+.pagination> li > a[aria-label=Previous] {
+    background: none;
+    border: none;
+    color: #5cd2bc
+}
+
+
+.pagination > li > a:hover, 
+.pagination> li > a:focus, 
+.pagination> li > span:hover,
+.pagination > li > span:focus{
+    background: none;
+    border: 0px solid;
+    color: #5cd2bc;
+}
+
+.pagination > .active> a{
+  color: #5cd2bc !important;
+  background-color: transparent !important; 
+
+}
+
+.page-link:focus{
+ /*outline: 0 !important;*/
+ -webkit-box-shadow:0 0 0 0rem !important;
+ box-shadow: 0 0 0 0rem !important;
+}
+.pagination>.active>a::after{
+  content: "";
+  display: block;
+  background-color:#5cd2bc;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1px;
+}

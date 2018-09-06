@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Light MrEaves';
+  font-style: normal;
+
+  src: url('../fonts/MrEavesXLModOT-Light.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Heavy MrEaves';
+  font-style: normal;
+  src: url('../fonts/MrEavesXLModNarOT-Heavy.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Bold MrEaves';
+  font-style: normal;
+
+  src: url('../fonts/MrEavesXLModNarOT-Bold.ttf');
+ /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Regular MrEaves';
+  font-style: normal;
+ 
+  src: url('../fonts/MrEavesXLModNarOT-Reg.ttf'); /* IE9 Compat Modes */
+}
+.article{
+
+  width: 600px;
+  position:relative;
+  margin-right: auto;
+  margin-left: auto;
+  top:70px;
+}
+
+.headline{
+font-size:60px;
+font-family: 'Light MrEaves';
+font-style: normal;
+
+color:#2d3636;
+position:relative;
+top:20px;
+border-bottom: 2px solid grey;
+width: 100%;
+height:80px;
+text-align: left; 
+
+}
+
+.title{
+font-size:24px;
+font-family: 'Heavy MrEaves';
+font-style: normal;
+
+color:#2d3636;
+margin-left: auto;
+margin-right: auto;
+text-align: right;
+position:relative;
+top:60px;
+width: 600px;
+
+
+
+}
+
+.menu{
+font-size:18px;
+font-family: 'Bold MrEaves';
+font-style: normal;
+/*font-weight: 400;*/
+color:#2d3636;
+position: relative;
+text-align: center;
+top:20px;
+
+
+}
+
+.body_text{
+font-size:16px;
+font-family: 'Regular MrEaves';
+font-style: normal;
+/*font-weight: 400;*/
+color:#2d3636;
+position: relative;
+top: 20px; 
+}
+
+.caption{
+font-size:12px;
+font-family: 'Regular MrEaves';
+font-style: normal;
+position:relative;
+margin-right: auto;
+margin-left:auto;
+width: 600px;
+text-align: right;
+top:60px;
+color:#2d3636;
+}

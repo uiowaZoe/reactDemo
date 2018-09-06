@@ -1,0 +1,236 @@
+button{
+	padding-top: 20px;
+}
+
+.submitDefault{
+font-size:16px;
+font-family: 'Bold MrEaves';
+font-style: normal;
+background-color: #3D77EA;
+border-style: solid;
+border-width: 1px;
+border-color: #3D77EA;
+color:#FFFFFF;
+text-align: center;
+width: 86px;
+height:30px;
+cursor: pointer;
+line-height: 30px;
+border-radius: 3px;
+display: inline-block;
+-ms-transform: scaleX(1.2);/*IE9*/
+-moz-transform: scaleX(1.2);/*Firefox*/
+-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+
+}
+.submitHover{
+font-size:16px;
+font-family: 'Bold MrEaves';
+font-style: normal;
+/*background-color: #ffffff;*/
+border-style: solid;
+border-width: 1px;
+border-color: #3D77EA;
+color:#3D77EA;
+text-align: center;
+width: 86px;
+height:30px;
+cursor: pointer;
+line-height: 30px;
+display: inline-block;
+border-radius: 8px;
+-ms-transform: scaleX(1.2);/*IE9*/
+-moz-transform: scaleX(1.2);/*Firefox*/
+-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+}
+.cancelDefault{
+font-size:16px;
+font-family: 'Bold MrEaves';
+font-style: normal;
+background-color: #e83f54;
+border-style: solid;
+border-width: 1px;
+border-color: #e83f54;
+color:#FFFFFF;
+text-align: center;
+width: 86px;
+height:30px;
+cursor: pointer;
+display: inline-block;
+line-height: 30px;
+border-radius: 3px;
+-ms-transform: scaleX(1.2);/*IE9*/
+-moz-transform: scaleX(1.2);/*Firefox*/
+-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+
+}
+.cancelHover{
+font-size:16px;
+font-family: 'Bold MrEaves';
+font-style: normal;
+/*background-color: #ffffff;*/
+border-style: solid;
+border-width: 1px;
+border-color: #e83f54;
+color:#e83f54;
+text-align: center;
+width: 86px;
+height:30px;
+cursor: pointer;
+line-height: 30px;
+display: inline-block;
+border-radius: 8px;
+-ms-transform: scaleX(1.2);/*IE9*/
+-moz-transform: scaleX(1.2);/*Firefox*/
+-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+}
+
+.restoreDefault{
+	font-size:16px;
+	font-family: 'Bold MrEaves';
+	font-style: normal;	
+	color:#3D77EA;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ffffff;
+	text-align: center;
+	width: 86px;
+	height:30px;
+	cursor: pointer;
+	line-height: 30px;
+	display: inline-block;
+	-ms-transform: scaleX(1.2);/*IE9*/
+	-moz-transform: scaleX(1.2);/*Firefox*/
+	-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+}
+
+.restoreHover{
+	font-size:16px;
+	font-family: 'Bold MrEaves';
+	font-style: normal;	
+	color:#3D77EA;
+	text-align: center;
+	width: 86px;
+	height:30px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #3D77EA;
+	cursor: pointer;
+	line-height: 30px;
+	display: inline-block;
+	border-radius: 8px;
+	-ms-transform: scaleX(1.2);/*IE9*/
+	-moz-transform: scaleX(1.2);/*Firefox*/
+	-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+}
+
+.backDefault{
+	font-size:16px;
+	font-family: 'Bold MrEaves';
+	font-style: normal;	
+	color:#98a19f;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ffffff;
+	text-align: center;
+	width: 86px;
+	height:30px;
+	cursor: pointer;
+	line-height: 30px;
+	display: inline-block;
+	-ms-transform: scaleX(1.2);/*IE9*/
+	-moz-transform: scaleX(1.2);/*Firefox*/
+	-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+}
+
+.backHover{
+	font-size:16px;
+	font-family: 'Bold MrEaves';
+	font-style: normal;	
+	color:#98a19f;
+	text-align: center;
+	width: 86px;
+	height:30px;
+	cursor: pointer;
+	line-height: 30px;
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ffffff;
+
+	
+	-ms-transform: scaleX(1.2);/*IE9*/
+	-moz-transform: scaleX(1.2);/*Firefox*/
+	-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+}
+
+.backHover::after{
+	content: "";
+	display: block;
+	background-color:#98a19f;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 2px;
+	-ms-transform: scaleX(1.2);/*IE9*/
+	-moz-transform: scaleX(1.2);/*Firefox*/
+	-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+}
+
+
+.switchDefault{
+	font-size: 16px;
+	font-family: 'Bold MrEaves';
+	font-style: normal;
+	color: black;
+	cursor: pointer;
+	margin-left: 16px;
+	margin-right: 16px;
+	-ms-transform: scaleX(1.2);/*IE9*/
+	-moz-transform: scaleX(1.2);/*Firefox*/
+	-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+}
+.switchHover{
+	font-size:16px;
+	font-family: 'Bold MrEaves';
+	font-style: normal;
+	color: #5cd2bc;
+	margin-left: 16px;
+	margin-right: 16px;
+	cursor: pointer;
+	-ms-transform: scaleX(1.2);/*IE9*/
+	-moz-transform: scaleX(1.2);/*Firefox*/
+	-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+}
+.switchClick{
+	font-size: 16px;
+	font-family: 'Bold MrEaves';
+	font-style: normal;
+	color: #5cd2bc;
+	cursor: pointer;
+	margin-left: 16px;
+	margin-right: 16px;
+	text-align: center;
+	-ms-transform: scaleX(1.2);/*IE9*/
+	-moz-transform: scaleX(1.2);/*Firefox*/
+	-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+}
+.switchClick::after{
+	content: "";
+	display: block;
+	background-color:#5cd2bc;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1px;
+	-ms-transform: scaleX(1.2);/*IE9*/
+	-moz-transform: scaleX(1.2);/*Firefox*/
+	-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+}
+.tabBar{
+	padding-top:40px;
+	display: inline-block;
+	-ms-transform: scaleX(1.2);/*IE9*/
+	-moz-transform: scaleX(1.2);/*Firefox*/
+	-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+}

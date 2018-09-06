@@ -1,0 +1,109 @@
+div .uploadBlock{
+	width: 470px;
+	height: 310px;
+	margin-right: auto;
+	margin-left:auto;
+	border-style: dashed;
+	border-radius: 8px;
+	border-color: #b3b3b3;
+	border-width: 1px;
+	  -ms-transform: scaleX(1.2);/*IE9*/
+-moz-transform: scaleX(1.2);/*Firefox*/
+-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+}
+
+ .uploadLink{
+	color:#5cd2bc;
+	font-family: 'Regular MrEaves';
+	font-size: 14px;
+	cursor: pointer;
+	
+}
+.after-link{
+	display: inline-block;
+	padding-left: 5px;
+	font-size:14px;
+	color: #57616b;
+	font-family: 'Regular MrEaves'; 
+}
+
+div .uploadTag{
+	font-family: 'Heavy MrEaves';
+
+	color:#57616b;
+	font-size: 24px;
+	/*position: absolute;*/
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.icon-uploadfile{
+	width: 100px;
+	height: 80px;
+	padding-bottom: 20px;
+}
+
+
+.progress-bar-area{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	width: 235px;
+	height: 30px;
+}
+
+#progress-bar-container {
+	width: 213px;
+	height: 9.4px;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 35px;
+	overflow: hidden;
+}
+
+.progress-bar-child {
+	width: 100%;
+	height: 100%;
+}
+
+.progress {
+
+	animation-direction: reverse;
+	background: #d6d6d6;
+	/* Old browsers */
+	background: -moz-linear-gradient(left, #b5e5e3 0%, #5cd2bc 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #b5e5e3 0%, #5cd2bc 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #b5e5e3 0%, #5cd2bc 100%);
+}
+.progress-error {
+	
+	animation-direction: reverse;
+	background: #e83f54;
+}
+.shrinker {
+	background-color: #d6d6d6;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+}
+
+.timelapse {
+	animation-name: timelapse;
+	animation-fill-mode: forwards;
+	animation-duration: 2s;
+	animation-timing-function: cubic-bezier(.86, .05, .4, .96);
+}
+
+@keyframes timelapse {
+	0% {
+		width: 100%;
+	}
+	100% {
+		width: 0%;
+	}
+}

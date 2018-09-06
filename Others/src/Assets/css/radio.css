@@ -1,0 +1,10 @@
+.radioBox-area{
+	font-family: 'Regular MrEaves';
+	font-size: 18px;
+	display: inline-block;
+	width: 30%;
+	margin: 50px;
+	-ms-transform: scaleX(1.2);/*IE9*/
+-moz-transform: scaleX(1.2);/*Firefox*/
+-webkit-transform: scaleX(1.2);/*Safari 和 Chrome*/ 
+}
